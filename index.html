@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-label="Login form">
+      <div class="form-pane">
+        <button class="back-btn" aria-label="Go back">&#8592;</button>
+        <h1>Login to system</h1>
+        <p class="subtitle">Please enter your login information or click here to registration</p>
+
+        <form class="login-form" action="#" method="post">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" required>
+
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" required>
+
+          <label class="remember">
+            <input type="checkbox" name="remember">
+            <span>Remember me</span>
+          </label>
+
+          <button class="login-btn" type="submit">Log In</button>
+        </form>
+      </div>
+
+      <div class="image-pane" role="img" aria-label="Decorative abstract background"></div>
+    </section>
+  </main>
+</body>
+</html>
