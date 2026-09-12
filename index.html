@@ -12,9 +12,11 @@
       <div class="form-pane">
         <button class="back-btn" aria-label="Go back">&#8592;</button>
         <h1>Login to system</h1>
-        <p class="subtitle">Please enter your login information or click here to registration</p>
+        <p class="subtitle">Please enter your login information or <a href="#" class="register-link">click here to register</a></p>
 
-        <form class="login-form" action="#" method="post">
+        <div id="form-message" class="form-message" role="alert" hidden></div>
+
+        <form class="login-form" novalidate>
           <label for="username">Username</label>
           <input id="username" name="username" type="text" required>
 
@@ -33,5 +35,6 @@
       <div class="image-pane" role="img" aria-label="Decorative abstract background"></div>
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>

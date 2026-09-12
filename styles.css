@@ -66,9 +66,49 @@ h1 {
   font-size: 14px;
 }
 
+.register-link {
+  color: #8f57c7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.form-message {
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.form-message.success {
+  color: #1f6b3f;
+  background: #e8f7ee;
+  border: 1px solid #b9e5c8;
+}
+
+.form-message.error {
+  color: #8f1f2d;
+  background: #fdecee;
+  border: 1px solid #f5c2c7;
+}
+
+.form-message.info {
+  color: #4a3f8f;
+  background: #f0ecff;
+  border: 1px solid #d4c9ff;
+}
+
 .login-form {
   display: grid;
   gap: 8px;
+}
+
+.login-form.is-hidden {
+  display: none;
 }
 
 .login-form label {
